@@ -7,9 +7,13 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N",
 
 let password1EL = document.getElementById("password-1");
 let password2EL = document.getElementById("password-2");
+let passswordsLengthEL = document.getElementById("password-length");
 
 function generatePassword() {
-    for(let i=0 ; i<10 ; i ++) {
+    let passwordLength = parseInt(passswordsLengthEL.value) || 8;
+    password1EL.value = "";
+    password2EL.value = "";
+    for(let i=0 ; i<passwordLength ; i ++) {
         password1EL.value += characters[Math.floor(Math.random()*characters.length)];
         password2EL.value += characters[Math.floor(Math.random()*characters.length)];
     } 

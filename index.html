@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="index.js" defer></script>
 </head>
 <body>
@@ -12,7 +13,12 @@
             <h1>Generate a Random password</h1>
             <p>Never Use Insecure  password</p>
         </div>
+        <div class="password-length">
+            <p>Length of the password: </p>
+            <input type="number" id="password-length" placeholder="8" min="8" max="15">
+        </div>        
         <button class="btn" id="btn" onclick="generatePassword()">Generate Password</button>
+        <div class="line"></div>
         <div class="password-box" id="password-box">
             <input type = "text" id = "password-1" readonly>
             <input type = "text" id = "password-2" readonly>

@@ -1,59 +1,98 @@
-body {
-    background-color: #1C1C1C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
+    body {
+        background-color: #1C1C1C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        font-family :  'Poppins', sans-serif;
+    }
 
-.box{
-    background-color: #273549;
-    width: 450px;
-    height: 350px;
-   border: 5px solid none;
-   border-radius: 3px
-}
+    .box{
+        background-color: #273549;
+        width: 450px;
+        height: 350px;
+        border: 5px solid none;
+        border-radius: 3px
+    }
 
-.text{
-    font-size: medium;
-    height: 30px;
-    max-width: 75%;
-    margin-left: 25px;
-    margin-top: 30px;
-    font-family :  'Poppins', sans-serif;
-}
+    .text{
+        font-size: medium;
+        height: 30px;
+        max-width: 75%;
+        margin-left: 25px;
+        margin-top: 30px;
+        font-family :  'Poppins', sans-serif;
+    }
 
-.text p{
-    display: flex;
-    color: #4ADF86;
-    font-size: small;
-}
+    .text p{
+        display: flex;
+        color: #4ADF86;
+        font-size: small;
+    }
 
-.text h1{
-    color: white
-}
+    .text h1{
+        color: white
+    }
 
-.btn{
-    font-size: 10px; 
-    margin-top:110px;
-    margin-left: 30px;
-    background-color: #5DEF92;
-    border:0px none;
-    box-shadow: 0px 0px 5px #000000;
-    padding: 7px;
-    border-radius: 5px;
-}
-
-button:hover{
-    border:2px solid white;
-}
+    .btn{
+        font-family :  'Poppins', sans-serif;
+        font-size: 10px; 
+        margin-top: 20px;
+        margin-left: 30px;
+        background-color: #5DEF92;
+        border:0px none;
+        box-shadow: 0px 0px 5px #000000;
+        padding: 7px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 
 
-.password-box input{
-    background-color:#6B7280;
-    border : none;
-    border-radius: 3px;
-    margin-top: 50px;
-    margin-left: 30px;
-}
+    button:hover{
+        border:2px solid white;
+    }
+
+    .line {
+        width: 95%;
+        margin-left: 10px;
+        height: 1px;  
+        background-color: grey;  
+        margin-top: 10px;  
+    }
+
+
+    .password-box input{
+        font-family :  'Poppins', sans-serif;
+        background-color:#6B7280;
+        border : none;
+        border-radius: 3px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 3px;
+        text-align: center;
+        font-weight: bold;
+        color: #4ADF86;
+    }
+
+    .password-length{
+        font-family :  'Poppins', sans-serif;
+        color:#ECFDF5;
+        margin-top: 110px;
+        margin-left: 25px;
+        width: 200px;
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+
+    .password-length input{
+        width: 30px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left:10px ;
+        border-radius: 5px;
+        border: none;
+        background-color: grey;
+    }
 
