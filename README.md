@@ -7,6 +7,11 @@ A simple and secure password generator built with HTML, CSS, and JavaScript. Thi
 - **Customizable Length**: You can specify the desired password length (between 8 and 15 characters) to suit your needs.
 - **Secure Password Generation**: The passwords are generated using a secure set of characters including uppercase and lowercase letters, numbers, and special characters.
 
+## Demo:
+You can view the demo of the project 
+![Password Generator](password_preview.png)
+
+
 
 ## Technologies Used:
 - **HTML**: For structuring the webpage.
