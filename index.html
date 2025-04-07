@@ -4,13 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <div class = "box" id = "box">
         <div class="text">
-            <h1>Generate a random password</h1>
+            <h1>Generate a Random password</h1>
             <p>Never Use Insecure  password</p>
         </div>
-        <button class="btn" id="btn">Generate Password</button>
+        <button class="btn" id="btn" onclick="generatePassword()">Generate Password</button>
+        <div class="password-box" id="password-box">
+            <input type = "text" id = "password-1" readonly>
+            <input type = "text" id = "password-2" readonly>
+        </div>    
     </div>
 </body>
