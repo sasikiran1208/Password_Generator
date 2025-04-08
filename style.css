@@ -6,6 +6,8 @@
         overflow: hidden;
         font-family :  'Poppins', sans-serif;
         height: 100vh ;
+        margin:0;
+        padding-bottom:5px;
     }
 
     .box{
